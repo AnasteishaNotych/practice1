@@ -3,51 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Product</title>
   </head>
   <body>
     <!-- HEADER SECTION -->
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="logo">
-          <img src="./images/shared/logo.png" alt="logo" />Product
-        </a>
-        <ul class="header-menu">
-          <li class="header-menu-item"><a href="./index.html">Product</a></li>
-          <li class="header-menu-item"><a href="./pricing.html">Pricing</a></li>
-          <li class="header-menu-item">
-            <a href="./customers.html">Customers</a>
+      <div class="container header-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="logo">
+            <img src="./images/shared/logo.png" alt="logo" />Product
+          </a>
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="./index.html" class="header-menu-link header-link-active"
+                >Product</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a href="./pricing.html" class="header-menu-link">Pricing</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./customers.html" class="header-menu-link">Customers</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./resources.html" class="header-menu-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-menu-button">
+          <li class="header-button-item">
+            <button type="button" class="header-button">Sign In</button>
           </li>
-          <li class="header-menu-item">
-            <a href="./resources.html">Resources</a>
+          <li class="header-button-item">
+            <button type="button" class="header-button sign-up">Sign Up</button>
           </li>
         </ul>
-      </nav>
-      <ul class="header-menu-button">
-        <li class="header-button-item">
-          <button type="button" class="header-button">Sign In</button>
-        </li>
-        <li class="header-button-item">
-          <button type="button" class="header-button">Sign Up</button>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!-- MAIN SECTION -->
     <main>
       <!-- HERO SECTION -->
       <section class="hero">
-        <h1 class="hero-title">Work at the speed of thought</h1>
-        <p class="hero-text">
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <button class="hero-button">Get started</button
-        ><button class="hero-button">Watch the Video</button
-        ><img
-          src="./images/product/hero.png"
-          alt="four people with their phones near the big screen"
-        />
+        <div class="container">
+          <h1 class="hero-title">Work at the speed of thought</h1>
+          <p class="hero-text">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <button class="hero-button">Get started</button
+          ><button class="hero-button">Watch the Video</button
+          ><img
+            src="./images/product/hero.png"
+            alt="four people with their phones near the big screen"
+          />
+        </div>
       </section>
 
       <!-- FEATURE SECTION -->
@@ -332,7 +356,7 @@
             </p>
             <img src="./images/product/first-client.png" alt="first client" />
             <h3 class="feedback-subtitle">Wahid Ari</h3>
-            <p class="feedback-profesion">Designer</p>
+            <h6 class="feedback-profesion">Designer</h6>
           </li>
           <li class="feedback-menu-item">
             <p class="feedback-menu-text">
@@ -341,7 +365,7 @@
             </p>
             <img src="./images/product/second-client.png" alt="second client" />
             <h3 class="feedback-subtitle">Wahid Ari</h3>
-            <p class="feedback-profesion">Designer</p>
+            <h6 class="feedback-profesion">Designer</h6>
           </li>
           <li class="feedback-menu-item">
             <p class="feedback-menu-text">
@@ -350,7 +374,7 @@
             </p>
             <img src="./images/product/third-client.png" alt="third-client" />
             <h3 class="feedback-subtitle">Wahid Ari</h3>
-            <p class="feedback-profesion">Designer</p>
+            <h6 class="feedback-profesion">Designer</h6>
           </li>
         </ul>
       </section>
