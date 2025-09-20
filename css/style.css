@@ -44,7 +44,7 @@ img {
   font-weight: 700;
   font-size: 32px;
   color: #22343d;
-  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 /* header section */
@@ -316,14 +316,50 @@ img {
 /* support section */
 .support {
 }
+
+.support-container {
+  display: flex;
+  align-items: center;
+  gap: 84px;
+  margin: 0 auto;
+}
+
 .support-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+  margin-bottom: 25px;
 }
+
 .support-menu-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #22343d;
+  max-width: 437px;
+  margin-bottom: 30px;
 }
+
 .suport-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
+
 .support-menu-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
+
+.support-menu-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #22343d;
+  max-width: 385px;
+}
+
 /* collaboration section */
 .collaboration {
 }
