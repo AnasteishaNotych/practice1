@@ -238,10 +238,50 @@ img {
 }
 
 .features-menu-item {
+  width: calc((100% - 3 * 30px) / 4);
 }
 
 .features-menu-container {
   max-width: 255px;
+}
+
+.features-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  fill: #fff;
+}
+
+.cursor-container {
+  padding-right: 21px;
+  padding-left: 21px;
+  background-color: #02897a;
+}
+
+.wave-container {
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: #4d8dff;
+}
+
+.heart-container {
+  padding-right: 18px;
+  padding-left: 18px;
+  background-color: #740a76;
+}
+
+.hourglasses-container {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #f03e3d;
+}
+
+.features-icon {
 }
 
 .features-menu-subtitle {
@@ -322,6 +362,7 @@ img {
   align-items: center;
   gap: 84px;
   margin: 0 auto;
+  margin-bottom: 137px;
 }
 
 .support-title {
@@ -337,19 +378,41 @@ img {
   line-height: 1.63;
   color: #22343d;
   max-width: 437px;
-  margin-bottom: 30px;
 }
 
 .suport-menu {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  margin-top: 30px;
 }
 
 .support-menu-item {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
+}
+
+.support-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+  padding: 12px 9px 11px 10px;
+  fill: #fff;
+}
+
+.orange-container {
+  background-color: #f90;
+}
+.red-container {
+  background-color: #f03e3d;
+}
+.blue-container {
+  background-color: #4d8dff;
 }
 
 .support-menu-text {
@@ -363,12 +426,43 @@ img {
 /* collaboration section */
 .collaboration {
 }
+
+.collaboration-container {
+  display: flex;
+  align-items: center;
+  gap: 84px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.colaboration-text-container {
+  max-width: 486px;
+}
+
+.collaboration-title,
+.collaboration-text .collaboration-subtitle {
+  font-size: 16px;
+  color: #22343d;
+}
+
 .collaboration-title {
+  font-weight: 600;
+  max-width: 226px;
+  margin-bottom: 25px;
 }
+
 .collaboration-text {
+  font-weight: 400;
+  line-height: 1.63;
 }
+
 .collaboration-subtitle {
+  font-weight: 600;
+  line-height: 1.63;
+  margin-top: 25px;
+  margin-bottom: 12px;
 }
+
 /* staff section */
 .staff {
 }
