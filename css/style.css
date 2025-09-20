@@ -309,6 +309,8 @@ img {
 .management-subtitle {
   font-weight: 600;
   line-height: 1.63;
+  margin-bottom: 12px;
+  margin-top: 25px;
 }
 
 /* support section */
