@@ -62,10 +62,12 @@ img {
   gap: 237px;
 }
 
-.logo {
+.header-logo {
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: space-between;
+
+  width: 178px;
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93;
@@ -97,6 +99,7 @@ img {
 
 .header-menu-button {
   display: flex;
+  align-items: center;
   gap: 21px;
 }
 
@@ -107,15 +110,17 @@ img {
   display: block;
   border: 1px solid #bcd0e5;
   border-radius: 4px;
-  width: 105px;
-  height: 42px;
+  width: 102px;
+  height: 43px;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
+  background-color: #fff;
   color: #173a56;
 }
 
 .sign-up {
+  width: 110px;
   color: #fff;
   background-color: #02897a;
 }
@@ -123,9 +128,8 @@ img {
 /* main section */
 /* pricing section */
 .pricing {
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 
 .pricing-container {
@@ -146,6 +150,7 @@ img {
   font-weight: 700;
   font-size: 40px;
   color: #22343d;
+  margin-bottom: 16px;
 }
 
 .pricing-text {
@@ -153,7 +158,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   color: #22343d;
-  margin-top: 16px;
   margin-bottom: 49px;
 }
 
@@ -166,7 +170,7 @@ img {
 
 .pricing-menu-items {
   border-radius: 8px;
-  width: 322px;
+  width: calc((100% - 142px) / 3);
   height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
   background-color: #fff;
@@ -182,6 +186,7 @@ img {
   font-size: 24px;
   line-height: 1.67;
   color: #22343d;
+  margin-bottom: 8px;
 }
 
 .pricing-menu-text {
@@ -189,7 +194,6 @@ img {
   font-size: 16px;
   line-height: 2.5;
   color: #22343d;
-  margin-top: 8px;
   margin-bottom: 16px;
 }
 
@@ -197,6 +201,7 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 16px;
 }
 
 .pricing-digits-wrapper {
@@ -232,7 +237,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 16px;
   margin-bottom: 38px;
   gap: 16px;
 }
@@ -250,7 +254,6 @@ img {
 
 .pricing-button {
   display: block;
-  margin: 0 auto;
   border-radius: 8px;
   width: 139px;
   height: 44px;
@@ -262,7 +265,7 @@ img {
   padding: 11px 18px;
 }
 
-.pricing-menu-middle {
+.pricing-middle-item {
   background-color: #02897a;
 }
 
@@ -280,7 +283,6 @@ img {
   padding-top: 53px;
   padding-bottom: 51px;
   background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
-  margin-bottom: 294px;
 }
 
 .container {
@@ -331,6 +333,8 @@ img {
 
 /* audience section */
 .audience {
+  padding-top: 150px;
+  padding-bottom: 75px;
 }
 
 .audience-title {
@@ -377,6 +381,12 @@ img {
 
 /* faq-section */
 .faq {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.faq-container {
+  max-width: 960px;
 }
 
 .faq-title {
@@ -398,7 +408,6 @@ img {
 .faq-menu {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 16px;
 }
 
@@ -407,7 +416,6 @@ img {
   align-items: center;
   gap: 16px;
   border-bottom: 1px solid #e7e7e7;
-  width: 920px;
   padding-bottom: 22px;
 }
 
@@ -434,8 +442,8 @@ img {
 
 /* promo section */
 .promo {
-  margin-top: 150px;
-  margin-bottom: 150px;
+  padding-top: 75px;
+  padding-bottom: 150px;
 }
 
 .promo-container {
@@ -485,7 +493,7 @@ img {
 .footer-container {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 16px;
 }
@@ -495,10 +503,11 @@ img {
   max-width: 178px;
 }
 
-.logo {
+.footer-logo {
   display: flex;
-  gap: 16px;
   align-items: center;
+  justify-content: space-between;
+  width: 178px;
   margin-bottom: 24px;
 
   font-weight: 700;
@@ -536,7 +545,6 @@ img {
 }
 
 .footer-resources-container {
-  max-width: 118px;
   margin-right: 129px;
 }
 
@@ -562,7 +570,6 @@ img {
 }
 
 .footer-legalstaff-container {
-  max-width: 131px;
   margin-right: 83px;
 }
 
@@ -632,4 +639,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   color: #22343d;
+
+  margin: 0 auto;
 }
