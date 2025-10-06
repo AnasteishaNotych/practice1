@@ -52,7 +52,7 @@ img {
 
 .header-container {
   display: flex;
-  gap: 73px;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -116,10 +116,22 @@ img {
   color: #173a56;
 }
 
+.header-button:hover,
+.header-button:focus {
+  color: #02897a;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 .sign-up {
   width: 110px;
   color: #fff;
   background-color: #02897a;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* intro section */
@@ -173,6 +185,7 @@ img {
   border: 1px solid #eaeaea;
   border-radius: 100px;
   background-color: transparent;
+  outline: none;
 }
 
 .intro-input::placeholder {
@@ -201,6 +214,12 @@ img {
   font-family: inherit;
 
   transform: translateY(-50%);
+}
+
+.intro-button:hover,
+.intro-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .intro-bottom-part {
@@ -306,15 +325,13 @@ img {
   color: #22343d;
 }
 
-.stories-downtext-container {
+.stories-downtext {
   display: flex;
   align-items: center;
   gap: 8px;
-  width: 140px;
+  max-width: 140px;
   margin: 0 auto;
-}
 
-.stories-downtext {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.44;
@@ -389,6 +406,7 @@ img {
 }
 
 .conection-map {
+  display: block;
   margin: 0 auto;
   margin-bottom: 50px;
 }
@@ -428,6 +446,7 @@ img {
   height: 54px;
   background-color: #f5f5f5;
   padding: 19px 20px;
+  outline: none;
 }
 
 .form-input::placeholder {
@@ -445,6 +464,8 @@ img {
   padding: 23px 20px;
   background-color: #f5f5f5;
   padding: 23px 20px;
+  resize: none;
+  outline: none;
 }
 
 .form-texterea::placeholder {
@@ -468,6 +489,12 @@ img {
   letter-spacing: 0.01em;
   color: #fff;
   font-style: inherit;
+}
+
+.conection-button:hover,
+.conection-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* footer section */
@@ -591,6 +618,7 @@ img {
   padding: 10px 42px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   background-color: transparent;
+  outline: none;
 }
 
 .footer-input::placeholder {
@@ -621,6 +649,12 @@ img {
   text-align: center;
   color: #fff;
   font-family: inherit;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer-rights {

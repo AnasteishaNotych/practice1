@@ -52,7 +52,7 @@ img {
 
 .header-container {
   display: flex;
-  gap: 73px;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -119,10 +119,22 @@ img {
   color: #173a56;
 }
 
+.header-button:hover,
+.header-button:focus {
+  color: #02897a;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 .sign-up {
   width: 110px;
   color: #fff;
   background-color: #02897a;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* main section */
@@ -325,6 +337,12 @@ img {
   font-family: inherit;
 }
 
+.process-button:hover,
+.process-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 /* joining section */
 .join {
   padding-top: 35px;
@@ -358,8 +376,23 @@ img {
   justify-content: center;
 }
 
-.join-image {
+.join-business-container,
+.join-enterprise-container {
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 27px;
+}
+
+.join-business-container {
+  background-color: #ffefef;
+}
+
+.join-enterprise-container {
+  background-color: #f2f6ff;
 }
 
 .join-subtitle {
@@ -410,12 +443,11 @@ img {
 
 .promo-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  padding: 4px 46px 10px 51px;
+  padding: 4px 31px 0px 51px;
   border-radius: 32px;
-  width: 968px;
+  width: 1008px;
   height: 345px;
   background-color: #02897a;
 }
@@ -429,6 +461,7 @@ img {
   line-height: 1.51;
   color: #fff;
   margin-bottom: 46px;
+  max-width: 510px;
 }
 
 .promo-button {
@@ -440,6 +473,12 @@ img {
   font-size: 20px;
   color: #02897a;
   font-family: inherit;
+}
+
+.promo-button:hover,
+.promo-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* footer section */
@@ -563,6 +602,7 @@ img {
   padding: 10px 42px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   background-color: transparent;
+  outline: none;
 }
 
 .footer-input::placeholder {
@@ -593,6 +633,12 @@ img {
   text-align: center;
   color: #fff;
   font-family: inherit;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer-rights {

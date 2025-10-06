@@ -52,7 +52,7 @@ img {
 
 .header-container {
   display: flex;
-  gap: 73px;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -119,10 +119,22 @@ img {
   color: #173a56;
 }
 
+.header-button:hover,
+.header-button:focus {
+  color: #02897a;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 .sign-up {
   width: 110px;
   color: #fff;
   background-color: #02897a;
+}
+
+.sign-up:hover,
+.sign-up:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* main section */
@@ -265,6 +277,12 @@ img {
   padding: 11px 18px;
 }
 
+.pricing-button:hover,
+.pricing-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 .pricing-middle-item {
   background-color: #02897a;
 }
@@ -331,6 +349,12 @@ img {
   font-style: inherit;
 }
 
+.consult-button:hover,
+.consult-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
 /* audience section */
 .audience {
   padding-top: 150px;
@@ -363,6 +387,20 @@ img {
   align-items: center;
   gap: 14px;
   margin-bottom: 16px;
+}
+
+.audience-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: #f4f5f7;
+}
+
+.audience-icon {
 }
 
 .audience-subtitle {
@@ -448,10 +486,9 @@ img {
 
 .promo-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
-  padding: 4px 46px 10px 51px;
+  padding: 4px 31px 0px 51px;
   border-radius: 32px;
   width: 968px;
   height: 345px;
@@ -479,6 +516,12 @@ img {
   font-size: 20px;
   color: #02897a;
   font-family: inherit;
+}
+
+.promo-button:hover,
+.promo-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* footer section */
@@ -602,6 +645,7 @@ img {
   padding: 10px 42px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   background-color: transparent;
+  outline: none;
 }
 
 .footer-input::placeholder {
@@ -632,6 +676,12 @@ img {
   text-align: center;
   color: #fff;
   font-family: inherit;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  color: #173a56;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
 
 .footer-rights {
