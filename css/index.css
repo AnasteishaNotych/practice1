@@ -669,7 +669,6 @@ l .collaboration-title,
 }
 
 .pricing-container {
-  max-width: 1110px;
 }
 
 .pricing-title {
@@ -918,7 +917,7 @@ l .collaboration-title,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 31px 0px 51px;
+  padding: 4px 15px 0px 51px;
   border-radius: 32px;
   width: 968px;
   height: 345px;
